@@ -1,0 +1,110 @@
+/* variável da cor constante */
+:root {
+    --dark-blue: #000033;
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header {
+    background: var(--dark-blue);
+    padding: 2rem 4rem 8rem 4rem;
+    text-align: center;
+}
+
+#logo {
+    color: var(--white-color);
+    font-weight: 100;
+}
+
+/* balance */
+.container {
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+/* titles */
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+    font-weight: normal;
+}
+
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2 {
+    color: var(--white-color);
+    margin-top: 0;
+}
+
+/* Cards */
+.card {
+    background: var(--white-color);
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+
+    /* espaçamento dos cards */
+    margin-bottom: 2rem;
+    color: var(--dark-blue);
+}
+
+.card h3 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.card.total {
+    background: rgb(255, 230, 5);
+}
+
+/* Table  */
+#data-table {
+    /* o table vai pegar 100% do espaço que ela está ocupando */
+    width: 100%;
+    border-spacing: 0 0.5rem;
+}
+
+table th {
+    background: var(--white-color);
+    font-weight: normal;
+    color: var(--dark-blue);
+    padding: 1rem 1.5rem;
+    text-align: left;
+    border-radius: 4px;
+}
+
+table td {
+    background: var(--white-color);
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    color: var(--dark-blue);
+}
+
+table tr:hover {
+    opacity: 0.6;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--dark-blue);
+}
