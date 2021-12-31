@@ -203,10 +203,10 @@ table tr:hover {
     visibility: hidden;
 } 
 
-.modal-overlay.active {
+ .modal-overlay.active {
     opacity: 1;
     visibility: visible;
-}
+} 
 
 .modal {
     background: #f0f2f5;
