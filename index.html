@@ -27,7 +27,7 @@
                     <span>Entradas</span>
                     <img src="assets/income.svg" alt="Imagem de Entradas">
                 </h3>
-                <p>R$ 5.000,00</p>
+                <p id="incomesDisplay">R$ 0,00</p>
             </div>
 
             <div class="card">
@@ -35,7 +35,7 @@
                     <span>Saídas</span>
                     <img src="assets/expense.svg" alt="Imagem de Saídas">
                 </h3>
-                <p>R$ 2.000,00</p>
+                <p id="expensesDisplay">R$ 0,00</p>
             </div>
 
             <div class="card total">
@@ -43,7 +43,7 @@
                     <span>Total</span>
                     <img src="assets/total.svg" alt="Imagem Total">
                 </h3>
-                <p>R$ 3.000,00</p>
+                <p id="totalDisplay">R$ 0,00</p>
             </div>
 
         </section>
@@ -64,30 +64,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- <tr>
-                        <td class="description">Luz</td>
-                        <td class="expense">- R$ 500,00</td>
-                        <td class="date">26/12/2021</td>
-                        <td>
-                            <img src="assets/minus.svg" alt="Remover Transação">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="description">Criação de Web Site</td>
-                        <td class="income">R$ 5.000,00</td>
-                        <td class="date">26/12/2021</td>
-                        <td>
-                            <img src="assets/minus.svg" alt="Remover Transação">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="description">Internet</td>
-                        <td class="expense">- R$ 200,00</td>
-                        <td class="date">26/12/2021</td>
-                        <td>
-                            <img src="assets/minus.svg" alt="Remover Transação">
-                        </td>
-                    </tr> -->
+                    
                 </tbody>
             </table>
 
@@ -100,7 +77,7 @@
             <div id="form">
                 <h2>Nova Transação</h2>
 
-                <form action="">
+                <form action="" onsubmit="Form.submit(event)">
                     <div class="input-group">
                         <label class="sr-only" for="description">Descrição</label>
                         <input type="text" id="description" name="description" placeholder="Descrição">
