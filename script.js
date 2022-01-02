@@ -88,14 +88,12 @@ const DOM = {
                         <td class="${CSSclass}">${amount}</td>
                         <td class="date">${transaction.date}</td>
                         <td>
-                            <img onclick='Transaction.remove(${index})' onclick='cursorPointer' src="assets/minus.svg" alt="Remover Transação">
+                            <img onclick='Transaction.remove(${index})' src="assets/minus.svg" alt="Remover Transação">
                         </td>
                     
                     `
         return html
     },
-
-
 
     // atualização (formatação) das entradas,saídas e total
     upDateBalance() {
