@@ -115,7 +115,7 @@ button {
     color: var(--dark-blue);
     background: var(--yellow);
     font-weight: bold;
-    font-family: Poppins;
+    font-family: 'Poppins';
 
     border-radius: 0.25rem;
 
