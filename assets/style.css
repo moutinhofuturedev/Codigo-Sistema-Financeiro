@@ -1,7 +1,7 @@
 /* variável da cor constante */
 :root {
     --dark-blue: #000033;
-    --white-color: #fff;
+    --black-color: rgba(24, 26 , 27 ,1);
     --yellow: #ffe605;
 }
 
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background: #f0f2f5;
+    background: rgba(31, 34, 35, 1);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 #logo {
-    color: var(--white-color);
+    color: var(--black-color);
     font-weight: 100;
 }
 
@@ -57,7 +57,7 @@ header {
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: var(--dark-blue);
+    color: #fff;
     font-weight: normal;
 }
 
@@ -66,19 +66,19 @@ h2 {
 }
 
 #balance h2 {
-    color: var(--white-color);
+    color: var(--black-color);
     margin-top: 0;
 }
 
 /* Cards */
 .card {
-    background: var(--white-color);
+    background: var(--black-color);
     padding: 1.5rem 2rem;
     border-radius: 4px;
 
     /* espaçamento dos cards */
     margin-bottom: 2rem;
-    color: var(--dark-blue);
+    color: #fff;
 }
 
 .card h3 {
@@ -112,7 +112,7 @@ button {
 
     border: none;
 
-    color: var(--dark-blue);
+    color: #fff;
     background: var(--yellow);
     font-weight: bold;
     font-family: 'Poppins';
@@ -141,7 +141,7 @@ button:hover {
     align-items: center;
 
     background: #d71605;
-    color: var(--white-color);
+    color: #fff;
 
     font-weight: bold;
 
@@ -149,8 +149,8 @@ button:hover {
 }
 
 .button.cancel:hover {
-    background: var(--white-color);
-    color: #d71605;
+    background: var(--dark-blue);
+    color: var(--yellow);
 }
 
 #transaction {
@@ -167,19 +167,19 @@ button:hover {
 }
 
 table th {
-    background: var(--white-color);
+    background: var(--black-color);
     font-weight: normal;
-    color: var(--dark-blue);
+    color: #fff;
     padding: 1rem 1.5rem;
     text-align: left;
     border-radius: 4px;
 }
 
 table td {
-    background: var(--white-color);
+    background: var(--black-color);
     padding: 1rem 1.5rem;
     border-radius: 4px;
-    color: var(--dark-blue);
+    color: #fff;
 }
 
 table tr:hover {
@@ -209,11 +209,17 @@ table tr:hover {
 } 
 
 .modal {
-    background: #f0f2f5;
+    background: var(--black-color);
     padding: 2.4rem;
     position: relative;
     width: 90%;
     max-width: 500px;
+}
+
+.inputs {
+    background: rgba(31, 34, 35, 1);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Form (formulário) */
@@ -238,7 +244,7 @@ input {
 
  small {
     opacity: 0.7;
-    color: var(--dark-blue);
+    color: #fff;
 }
 
 .input-group.action {
@@ -257,7 +263,7 @@ input {
 footer {
     text-align: center;
     padding: 2rem 0;
-    color: var(--dark-blue);
+    color: #fff;
     font-size: 1.1rem;
 }
 
