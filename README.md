@@ -1,4 +1,4 @@
-<h1 align="center">dev.fincance$</h1>
+<h1 align="center">dev.finance$</h1>
 
 ## 🚀 Tecnologias
 
