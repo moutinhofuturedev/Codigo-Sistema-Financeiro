@@ -3,6 +3,8 @@
     --dark-blue: #000033;
     --black-color: rgba(24, 26 , 27 ,1);
     --yellow: #ffe605;
+    --red: #d71605;
+    --white: #fff;
 }
 
 * {
@@ -57,7 +59,7 @@ header {
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: #fff;
+    color: var(--white);
     font-weight: normal;
 }
 
@@ -78,7 +80,7 @@ h2 {
 
     /* espaçamento dos cards */
     margin-bottom: 2rem;
-    color: #fff;
+    color: var(--white);
 }
 
 .card h3 {
@@ -102,7 +104,7 @@ h2 {
 
 /* links e buttons */
 a {
-    color: #d71605;
+    color: var(--red);
     text-decoration: none;
 }
 
@@ -112,7 +114,7 @@ button {
 
     border: none;
 
-    color: #fff;
+    color: var(--white);
     background: var(--yellow);
     font-weight: bold;
     font-family: 'Poppins';
@@ -140,8 +142,8 @@ button:hover {
     justify-content: center;
     align-items: center;
 
-    background: #d71605;
-    color: #fff;
+    background: var(--red);
+    color: var(--white);
 
     font-weight: bold;
 
@@ -169,7 +171,7 @@ button:hover {
 table th {
     background: var(--black-color);
     font-weight: normal;
-    color: #fff;
+    color: var(--white);
     padding: 1rem 1.5rem;
     text-align: left;
     border-radius: 4px;
@@ -179,11 +181,19 @@ table td {
     background: var(--black-color);
     padding: 1rem 1.5rem;
     border-radius: 4px;
-    color: #fff;
+    color: var(--white);
 }
 
 table tr:hover {
     opacity: 0.6;
+}
+
+td.income {
+    color: green;
+}
+
+td.expense {
+    color: var(--red);
 }
 
 /* Modal  */
@@ -218,7 +228,7 @@ table tr:hover {
 
 .inputs {
     background: rgba(31, 34, 35, 1);
-    color: #fff;
+    color: var(--white);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -244,7 +254,7 @@ input {
 
  small {
     opacity: 0.7;
-    color: #fff;
+    color: var(--white);
 }
 
 .input-group.action {
@@ -263,7 +273,7 @@ input {
 footer {
     text-align: center;
     padding: 2rem 0;
-    color: #fff;
+    color: var(--white);
     font-size: 1.1rem;
 }
 
