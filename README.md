@@ -12,4 +12,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
-### Veja a aplicação no ar ✈ https://devsfinances.netlify.app/#
+### Veja a aplicação no ar ✈ <a href="https://devfinance-three.vercel.app/">devfinance$</a>
